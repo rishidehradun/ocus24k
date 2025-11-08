@@ -135,7 +135,7 @@ document.getElementById('contactForm').addEventListener('submit', async function
         formData.append('timestamp', new Date().toLocaleString());
         
         // REPLACE THIS WITH YOUR GOOGLE APPS SCRIPT URL
-        const scriptURL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw8y31qgPI4--XcRhKKJ5U5041Pk24Z2nwn5URoepAFb6ZCdb8Qn_XSvfpYVzNgnIs/exec';
         
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 10000);
@@ -171,4 +171,5 @@ document.getElementById('contactForm').addEventListener('submit', async function
         submitButton.textContent = originalButtonText;
         submitButton.disabled = false;
     }
+
 });
