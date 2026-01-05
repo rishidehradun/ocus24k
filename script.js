@@ -1,6 +1,6 @@
 // Configuration
 const CONFIG = {
-    GOOGLE_SCRIPT_URL: 'YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE', // Replace with actual URL
+    GOOGLE_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxnjxUVGHAaEXTsdQe2p6TJKt_dHai2SXE_nivkbLD9rVx8MForIIyzu3ODtzDHAvc/exec', // Replace with actual URL
     SCROLL_OFFSET: 80,
     SUCCESS_MESSAGE_DURATION: 5000,
     PHONE_VALIDATION_LENGTH: 10,
